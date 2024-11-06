@@ -39,7 +39,12 @@ public class NguoiThueTroDAO implements INguoiThueTroDAO {
         return nguoiThueTroList;
 
     }
-    
+
+    @Override
+    public void insert(NguoiThueTro nguoiThueTro) {
+
+    }
+
 
     @Override
     public void deleteUserById(int maPhong) {
